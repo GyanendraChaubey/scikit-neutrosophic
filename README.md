@@ -14,7 +14,7 @@ pip install scikit-neutrosophic
 ## Usage
 
 ### Neutrosophic k-NN
-```
+```python
 from scikit_neutrosophic.neutrosophic_knn import NeutrosophicKNN
 
 # Example usage
@@ -28,7 +28,7 @@ knn.fit(X_train, y_train)
 print(knn.predict(np.array([[2, 3]])))
 ```
 ### Neutrosophic SVM
-```
+```python
 from scikit_neutrosophic.neutrosophic_svm import NeutrosophicSVM
 
 svm = NeutrosophicSVM()
@@ -38,7 +38,7 @@ print(svm.predict(np.array([[2, 3]])))
 
 ### Neutrosophic Linear Regression
 
-```
+```python
 from scikit_neutrosophic.neutrosophic_linear_regression import NeutrosophicLinearRegression
 
 reg = NeutrosophicLinearRegression()
